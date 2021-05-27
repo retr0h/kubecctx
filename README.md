@@ -1,6 +1,6 @@
 # Kubecctx
 
-A script that lets you manage multiple KUBECONF files.
+Script to manage multiple KUBECONF files.
 
 ## Installing
 
