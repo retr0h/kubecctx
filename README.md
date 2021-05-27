@@ -8,7 +8,7 @@ Script to manage multiple KUBECONF files.
 
 Homebrew package manager:
 
-    $ brew update
+    $ brew tap retr0h/kubecctx
     $ brew install kubecctx
 
 ## Usage
