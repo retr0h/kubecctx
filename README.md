@@ -23,10 +23,11 @@ Switch to eks-dev environment.
     $ kubecctx eks-dev
     Switched to KUBECONFIG '/Users/john.dewey/.kube/contexts/eks-dev/config.yml'.
 
-Switch between contexts within this context by using the wonderful [kubectx][] ❤️.
-Ideally [kubectx][] would support multiple config files.
+Best if used in conjuction with ❤️ [kube-ps1][] and [kubectx][] ❤️.
 
 ## Alternatives
+
+Ideally [kubectx][] will [support multiple config files][].
 
 I've run into issues with HELM v2 when using a KUBECONFIG env containing multple
 kubeconfig files (`KUBECONFIG=file1:file2:....`).
@@ -35,4 +36,6 @@ kubeconfig files (`KUBECONFIG=file1:file2:....`).
 
 MIT
 
+[kube-ps1]: https://github.com/jonmosco/kube-ps1
 [kubectx]: https://github.com/ahmetb/kubectx
+[support multiple config files]: https://github.com/ahmetb/kubectx/issues/211
